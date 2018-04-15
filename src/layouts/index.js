@@ -2,8 +2,10 @@ import React     from 'react'
 import PropTypes from 'prop-types'
 import Helmet    from 'react-helmet'
 
-import Header    from '../components/header'
 import Media     from 'react-media'
+
+import Header    from '../components/header'
+import Sidebar   from '../components/sidebar'
 
 import './index.css'
 import '../styles/layout-overide.css'
@@ -32,16 +34,18 @@ const Layout = ({ children, data }) => (
     >
 
       <Media query={{ maxWidth: 848 }}>
+        
+      
         {matches =>
           matches ? (
             <div style={{ 
-              margin: '0 auto',
+              margin: "0 auto",
               maxWidth: 980,
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              height: '100%',
-              padding: '25px'
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              height: "100%",
+              padding: "25px"
             }}>
               <div style={{ flex: 1 }}> {children()}</div>
             </div>
@@ -60,19 +64,19 @@ const Layout = ({ children, data }) => (
                {children()}
               </div>
               <div style={{ flex: 1 }}>
-                <Sidebar 
-                  title="Title" 
-                  description="This is text for tutorial." />
-                <Sidebar 
-                  title="About title"
-                  description="THIs is long descrption that we'll use for test our media queries"
+                <Sidebar
+                  title="Title" description="This is text for tutorial" 
                 />
+                <Sidebar
+                  title="About title" description="THIs is long descrption that we'll use for test our media queries" 
+                  />
               </div>
             </div>
             )
         }
 
       </Media>
+      
 
     </div>
   </div>
