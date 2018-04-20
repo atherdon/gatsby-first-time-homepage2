@@ -23,6 +23,9 @@ import '../styles/stuff-from-other-project.css'
 const Layout = ({ children, data }) => (
       <div>
       <div className="body">
+
+      {data.site.siteMetadata.title}
+
       <Header / >
       <Body />
       </div>
@@ -79,7 +82,7 @@ Layout.propTypes = {
 export default Layout
 
 export const query = graphql`
-  query SiteTitleQuery {
+  query SiteTitleQuery2 {
     site {
       siteMetadata {
         title
