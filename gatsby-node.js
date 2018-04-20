@@ -11,21 +11,21 @@
 
 // Implement the Gatsby API “onCreatePage”. This is
 // called after every page is created.
-exports.onCreatePage = async ({ page, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+// exports.onCreatePage = async ({ page, boundActionCreators }) => {
+//   const { createPage } = boundActionCreators;
 
-  return new Promise((resolve, reject) => {
-    if (page.path.match(/^\/homepage/)) {
-      // It's assumed that `landingPage.js` exists in the `/layouts/` directory
-      page.layout = "homepage2";
+//   return new Promise((resolve, reject) => {
+//     if (page.path.match(/^\/homepage/)) {
+//       // It's assumed that `landingPage.js` exists in the `/layouts/` directory
+//       page.layout = "homepage2";
 
-      // Update the page.
-      createPage(page);
-    }
+//       // Update the page.
+//       createPage(page);
+//     }
 
-    resolve();
-  });
-};
+//     resolve();
+//   });
+// };
 
  exports.createPages = ({ boundActionCreators, graphql }) => {
 

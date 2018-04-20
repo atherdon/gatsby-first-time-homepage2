@@ -29,8 +29,8 @@
     },
     {
         "componentChunkName": "component---src-pages-homepage-js",
-        "layout": "layout---homepage2",
-        "layoutComponentChunkName": "component---src-layouts-homepage-2-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "homepage.json",
         "path": "/homepage/"
     },

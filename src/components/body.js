@@ -8,7 +8,10 @@ const Body = ({  }) => (
       <p> Organize your shopping <br/> experience</p>
     </div>
     <div className="subheading">
-    <h2><small> This is Michelangelo Grocery List.Maybe we can make it better?</small></h2> </div>
+      <h2>
+      <small> This is Michelangelo Grocery List. Maybe we can make it better?</small>
+      </h2> 
+    </div>
     <div className="button"><button type="button" className="btn btn-spl btn-primary btn-lg">
       <i class="fab fa-github"></i>Get Started Now</button>
     </div>
@@ -17,4 +20,5 @@ const Body = ({  }) => (
     </div>
   </div>
 );
+
 export default Body

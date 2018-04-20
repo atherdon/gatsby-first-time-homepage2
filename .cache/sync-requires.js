@@ -3,8 +3,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.layouts = {
-  "layout---index": preferDefault(require("D:/code/gatsby-first-time-homepage2/.cache/layouts/index.js")),
-  "layout---homepage2": preferDefault(require("D:/code/gatsby-first-time-homepage2/.cache/layouts/homepage2.js"))
+  "layout---index": preferDefault(require("D:/code/gatsby-first-time-homepage2/.cache/layouts/index.js"))
 }
 
 exports.components = {
@@ -22,7 +21,6 @@ exports.json = {
   "conte-2.json": require("D:\\code\\gatsby-first-time-homepage2\\.cache\\json\\conte-2.json"),
   "dev-404-page.json": require("D:\\code\\gatsby-first-time-homepage2\\.cache\\json\\dev-404-page.json"),
   "404.json": require("D:\\code\\gatsby-first-time-homepage2\\.cache\\json\\404.json"),
-  "layout-homepage-2.json": require("D:\\code\\gatsby-first-time-homepage2\\.cache\\json\\layout-homepage-2.json"),
   "homepage.json": require("D:\\code\\gatsby-first-time-homepage2\\.cache\\json\\homepage.json"),
   "index.json": require("D:\\code\\gatsby-first-time-homepage2\\.cache\\json\\index.json"),
   "page-2.json": require("D:\\code\\gatsby-first-time-homepage2\\.cache\\json\\page-2.json"),
