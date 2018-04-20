@@ -8,6 +8,25 @@
 
  const path = require('path');
 
+
+// Implement the Gatsby API “onCreatePage”. This is
+// called after every page is created.
+exports.onCreatePage = async ({ page, boundActionCreators }) => {
+  const { createPage } = boundActionCreators;
+
+  return new Promise((resolve, reject) => {
+    if (page.path.match(/^\/homepage/)) {
+      // It's assumed that `landingPage.js` exists in the `/layouts/` directory
+      page.layout = "homepage2";
+
+      // Update the page.
+      createPage(page);
+    }
+
+    resolve();
+  });
+};
+
  exports.createPages = ({ boundActionCreators, graphql }) => {
 
  	const { createPage } = boundActionCreators;
