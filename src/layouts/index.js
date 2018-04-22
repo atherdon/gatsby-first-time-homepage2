@@ -9,6 +9,7 @@ import Sidebar   from '../components/sidebar'
 
 import './index.css'
 import '../styles/layout-overide.css'
+// import '../styles/stuff-from-other-project.css'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -34,11 +35,11 @@ const Layout = ({ children, data }) => (
     >
 
       <Media query={{ maxWidth: 848 }}>
-        
-      
+
+
         {matches =>
           matches ? (
-            <div style={{ 
+            <div style={{
               margin: "0 auto",
               maxWidth: 980,
               display: "flex",
@@ -49,9 +50,9 @@ const Layout = ({ children, data }) => (
             }}>
               <div style={{ flex: 1 }}> {children()}</div>
             </div>
-            ) 
+            )
           : (
-            <div style={{ 
+            <div style={{
               margin: "0 auto",
               maxWidth: 980,
               display: "flex",
@@ -65,10 +66,10 @@ const Layout = ({ children, data }) => (
               </div>
               <div style={{ flex: 1 }}>
                 <Sidebar
-                  title="Title" description="This is text for tutorial" 
+                  title="Title" description="This is text for tutorial"
                 />
                 <Sidebar
-                  title="About title" description="THIs is long descrption that we'll use for test our media queries" 
+                  title="About title" description="THIs is long descrption that we'll use for test our media queries"
                   />
               </div>
             </div>
@@ -76,7 +77,7 @@ const Layout = ({ children, data }) => (
         }
 
       </Media>
-      
+
 
     </div>
   </div>
