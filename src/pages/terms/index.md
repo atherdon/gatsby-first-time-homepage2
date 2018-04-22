@@ -1,98 +1,40 @@
-block content
-  h1 Copyright credits page
+---
+path: "/terms"
+date: "2018-04-12T17:12:33.962Z"
+title: "Groceristar Terms and Conditions"
+---
+div#credits-styles-wrapper
 
-  div#credits-styles-wrapper
+  h4
+  By visiting #{companyName}, you agree to accept all of these Terms and Conditions.
 
-    h4
-    Where we get template data.
-    div
-    Ingredients and departments data, was exported from
-      a(href="https://www.grocerylists.org/ultimatest/") The Ultimatest Grocery Lists from grocerylists.org
+  h3
+  Objective
+  p
+  The use of this website is expressly conditioned on your acceptance of all terms and conditions stated herein and within any other location on this website.
 
+  h3
+  Usage Agreement
+  p
+  DO NOT USE THIS WEBSITE or any content from this website if you do not accept all of the terms and conditions stated herein and at other locations of our website including, but not limited to Frequently Asked Questions and the Privacy Policy.
 
-    div
-    Author of this website(Mr. Bill Keaggy) write a cool book "Milk Eggs Vodka: Grocery Lists Lost and Found"
-    br
-    div
-    You can purchase it from  
-      a(href="https://www.amazon.com/Milk-Eggs-Vodka-Grocery-Lists/dp/144031201X/") Amazon
+  h3
+  Registration
+  p
+  You must register for a website account before using our services by filling out the information on the registration screen of this website. You will register only one time and use your account from then on.
 
-    br
+  h3
+  Changes
+  p
+  #{companyName} reserves the right to change, modify, or discontinue any portion and/or all of these Terms and Conditions at their discretion whether temporary or permanent without notice. By using our website, you agree that #{companyName} is not liable for any modification, suspension, or discontinuance of the Website.
 
-    h4
-    This project is open-source *.
-    p
-    Copy this project and start to build your own shopping list project.
-      a(href="https://github.com/atherdon/loopback-fb-login")
+  h3  
+  Maintenance &amp; Upgrades
 
-      mark *
-      |  Owner can change this permissions, but current version will be available on github.
+  p
+  Our infrastructure and network may need to be taken offline from time to time for the purpose of maintenance or upgrades. This offline status may be scheduled or on an emergency level which would be performed immediately without notification. We will not be held responsible for the downtime of our website.
 
-
-    div
-    Build with Loopback
-      a(href="https://loopback.io/") The Node.js API Framework
-
-
-    div
-    Ingredients list template based on
-      a(href="https://todomvc.com/") TodoMVC
-    br
-
-    h4 Science data based on this researches
-
-    div
-      a(href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430323/") "Using a Grocery List Is Associated with a Healthier Diet and Lower BMI Among Very High Risk Adults"
-
-      address.authors
-        strong RAND Health
-          Corresponding Author: Tamara Dubowitz,
-
-          RAND Corporation,
-
-          4570 Fifth Avenue, Suite 600,
-
-          Pittsburgh, PA 15213
-
-        abbr(title='Phone') P:
-          412 683 2300 x4400
-
-        abbr(title='Fax') F:
-          412 683 2800
-
-          gro.dnar@ztiwobud
-
-
-
-      a(href="https://www.cambridge.org/core/journals/public-health-nutrition/article/which-foodrelated-behaviours-are-associated-with-healthier-intakes-of-fruits-and-vegetables-among-women/37F7EF55FA97B490311419A26E734268#") "Which food-related behaviours are associated with healthier intakes of fruits and vegetables among women?"
-
-    p.authors
-     Crawford D, Ball K, Mishra G, Salmon J, Timperio A
-
-    p.description
-     Public Health Nutr. 2007 Mar; 10(3):256-65.      
-
-
-    h4
-    Free to use fronted tools
-    div
-    Icons from Font Awesome
-      a(href="https://fontawesome.io/") Website
-
-    div
-    Icons from 7 Stroke
-      a(href="http://themes-pixeden.com/font-demos/7-stroke/") Website
-
-
-    div
-    Google Fonts
-      a(href="https://fonts.google.com/specimen/Roboto") Website
-
-    div
-    Dropdown list from Codrops tutorial  
-      a(href="https://tympanus.net/codrops/2014/07/10/inspiration-for-custom-select-elements/") Article
-
-
-    div
-    Landing page prototype was build with Launchaco
-      a(href="http://launchaco.com/build/") Website    
+  h3
+  Termination
+  p
+  This agreement is not in requirement of duration and will continue until one of the parties terminates the agreement. You may terminate this agreement by informing us at any time by written notice. We will terminate this agreement immediately on any grounds that you have breached this contract. We will inform you in writing.

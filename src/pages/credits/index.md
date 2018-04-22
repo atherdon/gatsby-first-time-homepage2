@@ -1,5 +1,11 @@
+---
+path: "/credits"
+date: "2018-04-12T17:12:33.962Z"
+title: "Copyright credits page"
+---
+
 block content
-  h1 Copyright credits page
+  h1
 
   div#credits-styles-wrapper
 
