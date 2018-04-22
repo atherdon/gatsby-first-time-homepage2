@@ -18,7 +18,7 @@ import sectionCarousel       from '../components/sectionCarousel';
 import Featureslist from '../components/featureslist';
 
 
-import Header    from '../components/header'
+import Header    from '../components/Header'
 //import Sidebar   from '../components/sidebar'
 
 import './index.css'
@@ -46,7 +46,7 @@ const Layout = ({ children, data }) => (
 
         <sectionCarousel />
 
-  // <div className="row"> 
+  // <div className="row">
   //   <Bottom / >
   // < /div>
 

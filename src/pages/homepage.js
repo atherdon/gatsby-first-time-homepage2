@@ -2,16 +2,18 @@ import React from 'react'
 import Link  from 'gatsby-link'
 import _     from 'underscore'
 
-import data from '../static/content-part-one'
+import data from '../assets/json/content-part-one'
+// import data from '../assets/json/content-part-two'
+
 import Feature      from '../components/feature';
 // console.log(data);
 // data.features
 // data.menu
 // data.headings
 // data.footer
-import logo1 from '../static/Logos-01.png'
-import logo2 from '../static/Logos-04.png'
-import groceryListImage from '../static/michelangelo-grocery-list.png'
+import logo1 from '../assets/images/Logos-01.png'
+import logo2 from '../assets/images/Logos-04.png'
+import groceryListImage from '../assets/images/michelangelo-grocery-list.png'
 
 
 const HomePage = () => {
@@ -20,33 +22,33 @@ const HomePage = () => {
 	// console.log(a)
 
 
-let listItems = _.each(data.features, (i, feature) => (
+	let listItems = _.each(data.features, (i, feature) => (
 
-	<Feature key="{i}" heading="{feature[0]}" content="{feature[1]}" img="fas fa-shopping-cart fa-2x" />
+		<Feature key="{i}" heading="{feature[0]}" content="{feature[1]}" img="fas fa-shopping-cart fa-2x" />
 
-	)
-);
+		)
+	);
 
-let listItems2 = _.each(data.headings, (i, heading) => (
+	let listItems2 = _.each(data.headings, (i, heading) => (
 
-	<Feature key="{i}" heading="{heading[0]}" content="{heading[1]}" img="fas fa-shopping-cart fa-2x" />
+		<Feature key="{i}" heading="{heading[0]}" content="{heading[1]}" img="fas fa-shopping-cart fa-2x" />
 
-	)
-);
+		)
+	);
 
-let listItems3 = _.each(data.footer, (i, footer) => (
+	let listItems3 = _.each(data.footer, (i, footer) => (
 
-	<Feature key="{i}" heading="{footer[0]}" content="{footer[1]}" img="fas fa-shopping-cart fa-2x" />
+		<Feature key="{i}" heading="{footer[0]}" content="{footer[1]}" img="fas fa-shopping-cart fa-2x" />
 
-	)
-);
+		)
+	);
 
 
 
 
 
  // <img src={logo1} className="img img-responsive" alt="Groceristar logo" />
- // <img src={logo2} className="img img-responsive" alt="Groceristar logo" /> 
+ // <img src={logo2} className="img img-responsive" alt="Groceristar logo" />
 
  return (
 
