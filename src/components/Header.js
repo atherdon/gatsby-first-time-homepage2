@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          {siteTitle}
+          {siteTitle} - change me
         </Link>
       </h1>
     </div>

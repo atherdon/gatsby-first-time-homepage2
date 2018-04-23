@@ -6,13 +6,15 @@ import Media        from 'react-media'
 
 
 import SubHeader    from '../components/sub-header';
-import Body         from '../components/body';
+import Body         from '../components/Body';
+
 import Feature      from '../components/feature';
 // import { Carousel } from 'react-bootstrap';
 
 import Bottom       from '../components/bottom';
 
 import Social       from '../components/social';
+
 import sectionCarousel       from '../components/sectionCarousel';
 
 import Featureslist from '../components/featureslist';
@@ -31,7 +33,9 @@ const Layout = ({ children, data }) => (
       {data.site.siteMetadata.title}
 
       <Header / >
+
       <Body />
+
       </div>
       <div className="sectiontwo">
         <Feature img="fas fa-shopping-cart fa-2x" heading="Organize your shopping experience" content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."/>

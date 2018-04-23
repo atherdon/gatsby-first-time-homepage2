@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Groceristar',
+    subTitle: 'Organize your shopping experience'
   },
   plugins: [
   	'gatsby-plugin-react-helmet',
@@ -18,7 +19,7 @@ module.exports = {
         plugins: [] // just in case those previously mentioned remark plugins sound cool :)
       }
     },
-  	
-  	
+
+
   ],
 }
