@@ -30,8 +30,7 @@ In addition to the information provided automatically by your browser when you v
 
 ## II.             HOW WE USE AND SHARE INFORMATION
 
-#### Personal Information:
-
+#### Personal Information
 
 Except as otherwise stated in this Privacy Policy, we do not sell, trade, rent or otherwise share for marketing purposes your Personal Information with third parties without your consent. We do share Personal Information with vendors who are performing services for the Company, such as the servers for our email communications who are provided access to user’s email address for purposes of sending emails from us.  Those vendors use your Personal Information only at our direction and in accordance with our Privacy Policy.
 

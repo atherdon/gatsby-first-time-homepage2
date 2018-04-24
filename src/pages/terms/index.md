@@ -5,7 +5,7 @@ title: "Groceristar Terms and Conditions"
 ---
 
 
-## By visiting Groceristar, you agree to accept all of these Terms and Conditions.
+By visiting Groceristar, you agree to accept all of these Terms and Conditions.
 
 #### Objective
 
