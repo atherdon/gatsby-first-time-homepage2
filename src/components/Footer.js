@@ -17,46 +17,48 @@ const Footer = (props) => (
                 </li>
                 */}
                 <li>
-                  <Link onClick={props.onToggleMenu} to="/">Home</Link>
-                  <a href="/auth/facebook" className="icon alt fa-instagram">
+                  <Link className="icon alt fa-instagram" to="/auth/facebook">
                     <span className="label">Continue with Facebook</span>
-                  </a>
+                  </Link>
+
                 </li>
                 <li>
-                  <a href="https://github.com/GroceriStar" className="icon alt fa-github">
-                    <span className="label">GitHub Project</span>
-                  </a>
+                <Link className="icon alt fa-github" to="https://github.com/GroceriStar">
+                  <span className="label">GitHub Project</span>
+                </Link>
+
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/11486092/" className="icon alt fa-linkedin">
-                    <span className="label">LinkedIn</span>
-                  </a>
+                <Link className="icon alt fa-linkedin" to="https://www.linkedin.com/company/11486092/">
+                  <span className="label">LinkedIn</span>
+                </Link>
+
                 </li>
                 <li>
-                  <a href="/terms" className="icon alt fa-linkedin">
-                    <span className="label">Terms</span>
-                  </a>
+                <Link className="icon alt fa-linkedin" to="/terms">
+                <span className="label">Terms</span>
+                </Link>
+
                 </li>
                 <li>
-                  <a href="/privacy" className="icon alt fa-linkedin">
-                    <span className="label">Privacy</span>
-                  </a>
+                <Link className="icon alt fa-linkedin" to="/privacy">
+                  <span className="label">Privacy</span>
+                </Link>
+
                 </li>
                 <li>
-                  <a href="/credits" className="icon alt fa-linkedin">
+                <Link className="icon alt fa-linkedin" to="/credits">
                     <span className="label">Credits</span>
-                  </a>
+                </Link>
+
                 </li>
                 <li>
-                  <a href="mailto:arthur.tkachenko.netweight@gmail.com" className="icon alt fa-linkedin">
-                    <span className="label">Email Us</span>
-                  </a>
+                <Link className="icon alt fa-email" to="mailto:arthur.tkachenko.netweight@gmail.com">
+                  <span className="label">Email Us</span>
+                </Link>
+
                 </li>
-                <li>
-                  <a href="/" className="icon alt fa-linkedin">
-                    <span className="label">FAQ</span>
-                  </a>
-                </li>
+
             </ul>
 
             <ul className="copyright">
@@ -64,7 +66,11 @@ const Footer = (props) => (
                   &copy; Groceristar
                 </li>
                 <li>
-                  Design: <a href="https://html5up.net">HTML5 UP</a>
+                  Design:
+                  <Link  to="https://html5up.net">
+                  HTML5 UP
+                  </Link>
+
                 </li>
             </ul>
 

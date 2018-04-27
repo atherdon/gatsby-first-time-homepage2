@@ -1,6 +1,10 @@
 import React from 'react'
 import Link  from 'gatsby-link'
+
 import { Carousel } from 'react-bootstrap';
+
+
+
 
 const sectionCarousel = ( props ) => (
 	<div className="row">

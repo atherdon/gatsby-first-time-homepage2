@@ -1,6 +1,7 @@
 import React from 'react'
 import Link  from 'gatsby-link'
 import _     from 'underscore'
+import { Carousel } from 'react-bootstrap';
 
 import data  from '../assets/json/content-part-one'
 import datka from '../assets/json/content-part-two'
@@ -9,13 +10,6 @@ import Feature from '../components/Feature';
 import Body    from '../components/Body';
 
 import sectionCarousel from '../components/sectionCarousel';
-
-
-// console.log(data);
-// data.features
-// data.menu
-// data.headings
-// data.footer
 
 
 const HomePage = () => {
@@ -57,7 +51,7 @@ const HomePage = () => {
  // <Feature img="fas fa-mobile-alt fa-2x" heading="Mobile-oriented design (completed by Bootstrap)" content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."/>
  // <Feature img="fas fa-cogs fa-2x" heading="Customization" content="This is your own lists. You can do anything."/>
 
-	{/*}<sectionCarousel data="{datka}" />*/}
+
 
 
 
@@ -65,14 +59,15 @@ const HomePage = () => {
 
   <div>
 		<div className="body">
-			<Body />
+			{/*}<Body />*/}
 		</div>
-		{listItems}
+		<sectionCarousel data="{datka}" />
+		{/*{listItems}
 		<hr />
 		{listItems2}
 		<hr />
 		{listItems3}
-
+*/}
 	</div>
 
 
