@@ -1,7 +1,7 @@
 ---
-path: "/credits"
+path: "/faq"
 date: "2018-04-12T17:12:33.962Z"
-title: "Copyright credits page"
+title: "FAQ"
 ---
 
 #### Where we get template data.
@@ -34,34 +34,3 @@ Copy this project and start to build your own shopping list project.
 
 #### Ingredients list template based on
   [TodoMVC](https://todomvc.com/)
-
-
-#### Science data based on this researches
-
-
-  ["Using a Grocery List Is Associated with a Healthier Diet and Lower BMI Among Very High Risk Adults"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430323/)
-
-  RAND Health
-  Corresponding Author: Tamara Dubowitz, RAND Corporation,
-  4570 Fifth Avenue, Suite 600, Pittsburgh, PA 15213
-  P: 412 683 2300 x4400
-  F: 412 683 2800
-  gro.dnar@ztiwobud
-
-
-
-  ["Which food-related behaviours are associated with healthier intakes of fruits and vegetables among women?"](https://www.cambridge.org/core/journals/public-health-nutrition/article/which-foodrelated-behaviours-are-associated-with-healthier-intakes-of-fruits-and-vegetables-among-women/37F7EF55FA97B490311419A26E734268#)
-
-
- Crawford D, Ball K, Mishra G, Salmon J, Timperio A
- Public Health Nutr. 2007 Mar; 10(3):256-65.      
-
-
-## Free to use fronted tools
-
-
-* [Icons from Font Awesome](https://fontawesome.io/)
-* [Icons from 7 Stroke](http://themes-pixeden.com/font-demos/7-stroke/)
-* [Roboto Google font](https://fonts.google.com/specimen/Roboto)
-* [Dropdown list from Codrops tutorial](https://tympanus.net/codrops/2014/07/10/inspiration-for-custom-select-elements/)
-* [Landing page prototype was build with Launchaco](http://launchaco.com/)

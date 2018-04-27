@@ -28,8 +28,6 @@ let headings = [
 	"We'll clone Grocery List Template and you'll be able to customize it"
 ];
 
-//it's not working
-let url = '/images/Michelangelo_shopping_list.jpg';
 
 
 // Features
@@ -80,6 +78,7 @@ let features = [
 
 ];
 
+
 let footer = [
 	"Create Grocery Lists in a few minutes",
 	"Continue with Facebook",
@@ -94,7 +93,7 @@ let footer = [
 const result = {
 	menu: menu,
 	headings: headings,
-	url: url,
+
 	features: features,
 	footer: footer
 }

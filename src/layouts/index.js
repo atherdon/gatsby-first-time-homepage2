@@ -4,11 +4,14 @@ import Helmet    from 'react-helmet'
 
 import Media     from 'react-media'
 
+import Menu      from '../components/Menu';
 import Header    from '../components/Header'
 import Sidebar   from '../components/sidebar'
+import Footer    from '../components/Footer';
 
 import './index.css'
 import '../styles/layout-overide.css'
+
 // import '../styles/stuff-from-other-project.css'
 
 // <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -33,12 +36,12 @@ const Layout = ({ children, data }) => (
 
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
-
-
     </Helmet>
 
+    <Menu />
+
     <Header siteTitle={data.site.siteMetadata.title} />
+
     <div
       style={{
         margin: '0 auto',
@@ -96,6 +99,7 @@ const Layout = ({ children, data }) => (
 
       </Media>
 
+      <Footer />
 
     </div>
   </div>
