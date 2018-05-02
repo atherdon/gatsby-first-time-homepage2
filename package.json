@@ -19,7 +19,7 @@
     "react-bootstrap": "^0.32.1",
     "react-helmet": "^5.2.0",
     "react-media": "^1.8.0",
-    "reactstrap": "^5.0.0",
+    "reactstrap": "^6.0.1",
     "underscore": "^1.9.0"
   },
   "keywords": [
